@@ -1,0 +1,67 @@
+.attribution  { 
+    font-size: 11px; text-align: center;
+    align-items: bottom;
+    justify-content: center;
+    }
+
+ body {
+ min-height: 100vh;
+ font-family: Arial;
+}
+   .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    min-width: 100vh;
+    
+    
+    
+   }
+   .results {
+    background-color: hsl(252, 100%, 67%);
+    display: flex;
+    flex-direction: column;
+    font-size: 26px;
+    min-height: 500px;
+    max-width: 350px;
+    border-radius: 26px;
+    box-shadow: 0px 0px 25px -1px rgba(66, 68, 90, 1);
+    justify-content:space-around;
+    align-items: center;
+   }
+
+   .results-text {
+    color: hsl(10, 240%, 110%);
+    text-align: center;
+    
+    
+   }
+   .score {
+    display: flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: brown;
+    justify-content: center;
+    align-items: center;
+   
+
+   }
+   .score-text {
+    color:white;
+    font-size: 90px;
+    position: fixed;
+    text-shadow: 0px 0px 1px rgb(0, 0, 0);
+
+
+    
+    
+    
+   }
+   .score-text2 {
+    font-size: 10px;
+    color: grey;
+    position: relative;
+    margin-top: 100px;
+   }
