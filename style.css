@@ -97,6 +97,12 @@
    h2 {
       width: 13em;
    }
+   span {
+      color: grey;
+   }
+   b {
+      color: black;
+   }
    .summary {
     
    
