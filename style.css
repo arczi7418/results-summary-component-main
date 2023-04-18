@@ -14,6 +14,8 @@
     align-items: center;
     min-height: 100vh;
     min-width: 100vh;
+   
+   
     
     
     
@@ -71,6 +73,8 @@
    }
    
    .applause {
+      display: flex;
+      flex-direction: column;
    font-size:16px;
    text-align: center;
    }
@@ -83,48 +87,94 @@
    }
    .abc {
       display: flex;
-      margin: auto 18%;
+      margin: auto 16%;
       color:white;
       text-shadow: 2px 2px 5px rgba(158, 153, 153, 1);
    }
 
 
    
+   h2 {
+      width: 13em;
+   }
    .summary {
     
-      background-color: white;
+   
     display:flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    font-size: 26px;
+    font-size: 13px;
     min-height: 500px;
     min-width: 350px;
     border-radius: 26px;
     box-shadow: 0px 0px 25px -1px rgba(66, 68, 90, 1);
+    
+   
   
     
    }
    
    .reaction {
       color:hsl(0, 100%, 67%);
-      margin: 0 auto;
-      margin-left:auto;
+      background-color: hsl(0, 100%, 93%);;
+      padding: 4px;
+   border-radius: 13px;
+   width: 20em;
+   height: 3em;
+   
+      
       
    }
 
    .memory {
+      display: flex;
+  justify-content: space-between;
    color: hsl(39, 100%, 56%);
+   background-color: hsl(39, 100%, 93%);
+   padding: 4px;
+   border-radius: 13px;
+   width: 20em;
+   height: 3em;
+   
    }
+
+   div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 10px;
+   }
+   
+   
 
    .verbal {
    color:hsl(166, 100%, 37%);
-   background-color:red;
-   border-radius: 26px;
-   padding:7px;
+   background-color:hsl(166, 100%, 93%);
+   padding: 4px;
+   border-radius: 13px;
+   width: 20em;
+   height: 3em;
    }
 
    .visual {
    color: hsl(234, 85%, 45%);
+   background-color:hsl(234, 85%, 93%);
+   padding: 4px;
+   border-radius: 13px;
+   width: 20em;
+   height: 3em;
+   }
+   
+   .button {
+      display: flex;
+      color: hsl(0, 0%, 100%);
+    justify-content: center;
+    align-items: center;
+   
+      border-radius: 30px;
+      background-color: hsl(241deg 46.57% 43.31%);
+      width: 20em;
+      height: 3em;
    }
 
